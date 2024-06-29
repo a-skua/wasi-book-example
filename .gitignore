@@ -2,4 +2,5 @@
 target/
 wasm_exec.js
 *.mjs
+*.exe
 .DS_Store
