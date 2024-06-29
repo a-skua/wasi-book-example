@@ -1,0 +1,9 @@
+package example:hello@0.1.0;
+
+interface hello {
+    greet: func(name: string) -> string;
+}
+
+world greeter {
+    export hello;
+}

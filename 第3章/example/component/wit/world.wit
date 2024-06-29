@@ -1,0 +1,5 @@
+package example:component@0.1.0;
+
+world hello {
+    import example:hello/hello@0.1.0;
+}
