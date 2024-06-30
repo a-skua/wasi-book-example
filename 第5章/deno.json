@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "@bytecodealliance/preview2-shim/": "https://esm.sh/@bytecodealliance/preview2-shim@0.16.3/"
+  }
+}

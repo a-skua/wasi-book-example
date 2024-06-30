@@ -1,0 +1,11 @@
+{
+  "version": "3",
+  "remote": {
+    "https://esm.sh/@bytecodealliance/preview2-shim@0.16.3/cli": "10229233bd468d532f59ca9db33bfeb1db95450a35f4e34f6b801cd56dbfbd05",
+    "https://esm.sh/@bytecodealliance/preview2-shim@0.16.3/filesystem": "c5f3bb6a039b22a9cdef3c855b8f647d5cb0090324e0353e697a284c78181cc9",
+    "https://esm.sh/@bytecodealliance/preview2-shim@0.16.3/io": "7d3c90c07a7202a0a37d9bda271304bce33be8830e981d718650287bce20aa8a",
+    "https://esm.sh/v135/@bytecodealliance/preview2-shim@0.16.3/denonext/cli.js": "76ea3aa6ecd1525ce102de5c704c20129e75dfbe06fdfd85a1a686f2694059e3",
+    "https://esm.sh/v135/@bytecodealliance/preview2-shim@0.16.3/denonext/filesystem.js": "b6518db78c110b3381682ed3e861c0c9ac4142c44bea816e34c55e3dbc325dfd",
+    "https://esm.sh/v135/@bytecodealliance/preview2-shim@0.16.3/denonext/io.js": "a6b6e328778f4cb400366f42ac9d8890e4ea8f5aa144d96f7a2291e230ae60b9"
+  }
+}

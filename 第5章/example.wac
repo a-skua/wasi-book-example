@@ -1,0 +1,41 @@
+package example:composition;
+
+import environment: wasi:cli/environment@0.2.0;
+import exit: wasi:cli/exit@0.2.0;
+import error: wasi:io/error@0.2.0;
+import streams: wasi:io/streams@0.2.0;
+import stdin: wasi:cli/stdin@0.2.0;
+import stdout: wasi:cli/stdout@0.2.0;
+import stderr: wasi:cli/stderr@0.2.0;
+import wall-clock: wasi:clocks/wall-clock@0.2.0;
+import types: wasi:filesystem/types@0.2.0;
+import preopens: wasi:filesystem/preopens@0.2.0;
+
+let hello = new asuka:hello@0.1.0 {
+    environment,
+    exit,
+    error,
+    streams,
+    stdin,
+    stdout,
+    stderr,
+    wall-clock,
+    types,
+    preopens,
+};
+
+let instance = new asuka:component@0.1.0 {
+    hello: hello.hello,
+    environment,
+    exit,
+    error,
+    streams,
+    stdin,
+    stdout,
+    stderr,
+    wall-clock,
+    types,
+    preopens,
+};
+
+export instance.run;
