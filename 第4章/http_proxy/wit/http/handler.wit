@@ -1,0 +1,21 @@
+package wasi:http@0.2.0;
+
+interface incoming-handler {
+    use types.{incoming-request, response-outparam};
+
+    handle: func(
+        request: incoming-request,
+        response-out: response-outparam
+    );
+}
+
+interface outgoing-handler {
+    use types.{
+        outgoing-request, request-options, future-incoming-response, error-code
+    };
+
+    handle: func(
+        request: outgoing-request,
+        options: option<request-options>
+    ) -> result<future-incoming-response, error-code>;
+}

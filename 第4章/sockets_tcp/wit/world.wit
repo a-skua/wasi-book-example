@@ -1,0 +1,8 @@
+package component:sockets-tcp;
+
+world example {
+    import wasi:sockets/instance-network@0.2.0;
+    import wasi:sockets/tcp-create-socket@0.2.0;
+    import wasi:cli/stdout@0.2.0;
+    export wasi:cli/run@0.2.0;
+}

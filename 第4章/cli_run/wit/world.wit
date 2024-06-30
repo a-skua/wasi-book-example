@@ -1,0 +1,5 @@
+package component:cli-run;
+
+world example {
+    export wasi:cli/run@0.2.0;
+}

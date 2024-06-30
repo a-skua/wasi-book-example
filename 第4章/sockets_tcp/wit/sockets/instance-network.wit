@@ -1,0 +1,7 @@
+package wasi:sockets@0.2.0;
+
+interface instance-network {
+    use network.{network};
+
+    instance-network: func() -> network;
+}

@@ -1,0 +1,5 @@
+package component:http-proxy;
+
+world example {
+    include wasi:http/proxy@0.2.0;
+}

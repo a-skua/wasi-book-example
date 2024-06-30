@@ -1,0 +1,6 @@
+package component:cli-stdout;
+
+world example {
+    import wasi:cli/stdout@0.2.0;
+    export wasi:cli/run@0.2.0;
+}
